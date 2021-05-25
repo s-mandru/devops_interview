@@ -16,8 +16,8 @@ Steps:
 Bonus:
 - https
 - proper security groups
-- have DNS entry pointing
-- Run in VPC set up
+- have DNS entry pointing to LB
+- Run in a VPC set up (public? private? nat gateway?)
 - Do this with terraform or cloudformation or other config management
 - Cloudfront?
 
