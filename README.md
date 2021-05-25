@@ -9,15 +9,14 @@ Steps:
 - Build this container
 - Run it locally, test that it responds well to port 8080
 - Push image to repository (ECR if possible)
+- Run in a VPC set up (public? private? nat gateway?)
 - Get container with image to run in AWS (ECS if possible)
-- Put load balancer in front
-- Have load balancer in front
+- Put load balancer in front of the container and have it publicly accessible
 
 Bonus:
 - https
 - proper security groups
 - have DNS entry pointing to LB
-- Run in a VPC set up (public? private? nat gateway?)
 - Do this with terraform or cloudformation or other config management
 - Cloudfront?
 
